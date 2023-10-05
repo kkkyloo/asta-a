@@ -1,0 +1,278 @@
+.bmw::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .4);
+}
+
+.selecter{
+position: absolute;
+top: 25%;
+left: 4.6%;
+z-index: 99;
+width: 90%;
+height: 1%;
+color: white;
+}
+.cards1{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
+}
+.cards2{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
+}
+.cards3{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
+
+}
+.cards4{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards5{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards6{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards7{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards8{
+    position: absolute;
+    z-index: 3;
+    left: 41%;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards9{
+    position: absolute;
+    z-index: 3;
+    left: 64%;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards10{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 92vw;
+    font-size: 0.9vw;
+}
+.cards11{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 92vw;
+    font-size: 0.9vw;
+}
+.cards12{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 92vw;
+    font-size: 0.9vw;
+    
+}
+
+.cards-bmw{
+    will-change: contents;
+
+}
+
+.card-text{
+    font-size: 0.91vw;
+}
+.card-title{
+    font-size: 1.14vw; 
+}
+
+.c-item{
+    max-width: 100%;
+    min-height: 122vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.carousel{
+    position: relative;
+    z-index: 1;
+}
+.caption{
+    left: 28.4%;
+    font-size: 3vw;
+    top: 3vw;
+}
+.card-img-top{
+    pointer-events: none;
+    
+}
+.cards-bmw{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .caption{
+        font-size: 10vw;
+        left: 0vw;
+        line-height: 13vw;
+        width: 100%;
+        
+
+        
+    }
+    .card{
+        width: 40vw !important;
+    }
+
+    .cards1{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -260vh;
+        font-size: 3vw;
+    }
+    .cards2{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -260vh;
+        font-size: 3vw;
+    }
+    .cards3{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -257vh;
+        font-size: 3vw;
+    }
+    .cards4{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -257vh;
+        font-size: 3vw;
+    }
+    .cards5{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -254vh;
+        font-size: 3vw;
+    }
+    .cards6{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -254vh;
+        font-size: 3vw;
+    }
+    .cards7{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -251vh;
+        font-size: 3vw;
+    }
+    .cards8{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -251vh;
+        font-size: 3vw;
+    }
+    .cards9{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -248vh;
+        font-size: 3vw;
+    }
+    .cards10{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -248vh;
+        font-size: 3vw;
+    }
+    .cards11{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -245vh;
+        font-size: 3vw;
+    }
+    .cards12{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -245vh;
+        font-size: 3vw;
+    }
+    .card-img-top{
+        width:auto !important;
+        height: 110px !important;
+    }
+
+    .card-text{
+        font-size: 3vw;
+    }
+
+
+
+    .card-title{
+        font-size: 3.86vw; 
+    }
+
+    .card-img-top{
+        width: auto !important;
+    }
+    .bmw{
+        background-image: url("../../images/slider_webp/sm.png") !important;
+        background-position: center;
+        min-height: 300vh !important;
+   }
+   .btn{
+    font-size: 3.4vw;
+   }
+   .cards-bmw{
+    width: 100%;
+   }
+
+   .col-one{
+    height: 10% !important;
+   }
+} 

@@ -1,0 +1,573 @@
+body{
+    /* background-image: url('../images/slider_webp/6.jpg') !important;  */
+    background-repeat: no-repeat !important;
+    background-size: 100% 90vw !important;
+    background-color:#212529;
+}
+.chip_info {
+    margin-top: 26vh !important;
+  }
+.caption{
+    color: white;
+    line-height: 5vw;
+    font-size: 3vw;
+    margin-top: 4.1vw;
+}
+
+
+
+@media (min-width: 2100px) {
+    .footer{
+        font-size: 1vw;
+   }
+}
+@media (min-width: 1601px) {
+.logo-asta{
+    color: white;
+    top: 1.8vw;
+    position: absolute;
+    z-index: 99;
+    left: 4.8vw;
+    font-size: 2.06vw;
+   }
+.logo-asta{
+    color: white;
+    top: 1.8vw;
+    position: absolute;
+    z-index: 99;
+    left: 4.8vw;
+    font-size: 2.06vw;
+}
+.logo-city{
+    color: white;
+    top: 4.3vw;
+    position: absolute;
+    z-index: 99;
+    left: 4.8vw;
+    font-size: 1.1vw;
+}
+.caption{
+    line-height: 5vw;
+    font-size: 3.5vw;
+    text-align: left;
+    top: 7vw;
+    left: 4.7vw;
+}
+} 
+
+@media (max-width: 1366px) {
+    .images-logo{
+        width: 60vw;
+   }
+}
+@media (max-width: 1290px) {
+    .col, [class*="col-"] {
+        padding-right: 7px;
+        padding-left: 7px;
+   }
+    .hover-text-one figure h4 {
+        font-size: 62%;
+   }
+    figure.effect-text-four h4 {
+        top: 60%;
+   }
+    .table{
+        font-size: 13px;
+   }
+}
+
+
+
+
+@media (max-width: 950px) and (min-height: 900px){
+
+
+    .caption{
+        font-size: 6vw;
+        line-height: 9vw;
+        top: 17vw;
+        text-align: center;
+        left: 0px;
+        min-width: 100%;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 24vw 24vw;
+        top: 115vh;
+        width: 30vw;
+        height: auto;
+        left: 22vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+    .logo-asta{
+        color: white;
+        top: 6vw;
+        position: absolute;
+        z-index: 99;
+        left: 21vw;
+        font-size: 4.06vw;
+   }
+    .logo-city{
+        color: white;
+        top: 11vw;
+        position: absolute;
+        z-index: 99;
+        left: 57vw;
+        font-size: 2vw;
+   }
+
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+    .hover-text-one figure h4 {
+        font-size: 82%;
+   }
+    .chip_info{
+        margin-top: 0vh !important;
+        font-size: 5vw;
+   }
+}
+
+
+@media (max-width: 760px) and (min-height: 500px){
+    .chip_info{
+        margin-top: 0vh !important;
+        font-size: 5vw;
+   }
+
+    .caption{
+        font-size: 6vw;
+        line-height: 9vw;
+        top: 14vw;
+        text-align: center;
+        left: 0px;
+        min-width: 100%;
+   }
+    .logo-asta{
+        font-size: 4vw;
+        left: 19%;
+        top: 5vw;
+   }
+    .logo-city{
+        font-size: 1.2vw;
+        left: 60.6%;
+        top: 9.6vw;
+   }
+
+
+
+}
+
+/* SE */
+@media (max-width: 575px) and (min-height: 500px){  
+    .caption{
+        margin-top: 0vw;
+
+    }
+    body{
+        background-size: 100% 230vh !important;
+        
+    }
+    .chip_info{
+        margin-top: 0vh !important;
+        font-size: 5vw;
+   }
+    .opis_comp{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+    .tel{
+        font-size: 3.2vw !important;
+    }
+    .mess_numb{
+        /* margin-top: 13vh !important; */
+    }
+    .opis{
+        font-size: 4vw !important;
+    }
+
+    .caption{
+        font-size: 9.3vw;
+        line-height: 11vw;
+        top: 11vw;
+        text-align: center;
+        left: 0vw;
+        min-width: 100%;
+   }
+    .logo-asta{
+        font-size: 5.4vw;
+        left: 12%;
+        top: 6vw;
+   }
+    .logo-city{
+        font-size: 2.5vw;
+        left: 61.44%;
+        top: 12.8vw;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 27vw 27vw;
+        top: 90vh;
+        width: 30vw;
+        height: auto;
+        left: 20vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+
+
+    .table{
+        font-size: 11.9px !important;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 72% !important;
+   }
+}
+
+
+@media (max-width: 800px) {
+.malar-content{
+    margin-right: 0% !important; 
+    margin-left: 0% !important;
+}
+
+}
+
+
+
+@media (max-width: 575px) and (min-height: 700px){  
+    body{
+        background-size: 100% 199vh !important;
+        
+    }
+    .caption{
+        margin-top: 0vw;
+
+    }
+    .chip_info{
+        margin-top: 0vh !important;
+        font-size: 5vw;
+   }
+    .opis_comp{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+    .tel{
+        font-size: 3.2vw !important;
+    }
+    .mess_numb{
+        /* margin-top: 13vh !important; */
+    }
+    .opis{
+        font-size: 4vw !important;
+    }
+
+    .caption{
+        font-size: 9.3vw;
+        line-height: 11vw;
+        top: 11vw;
+        text-align: center;
+        left: 0vw;
+        min-width: 100%;
+   }
+    .logo-asta{
+        font-size: 5.4vw;
+        left: 12%;
+        top: 6vw;
+   }
+    .logo-city{
+        font-size: 2.5vw;
+        left: 61.44%;
+        top: 12.8vw;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 27vw 27vw;
+        top: 90vh;
+        width: 30vw;
+        height: auto;
+        left: 20vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+
+
+    .table{
+        font-size: 11.9px !important;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 72% !important;
+   }
+}
+
+@media (max-width: 575px) and (min-height: 830px){  
+    body{
+        background-size: 100% 187vh !important;
+        
+    }
+    .caption{
+        margin-top: -8vw;
+
+    }
+    .chip_info{
+        margin-top: 0vh !important;
+        font-size: 5vw;
+   }
+    .opis_comp{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+    .tel{
+        font-size: 3.2vw !important;
+    }
+    .mess_numb{
+        /* margin-top: 13vh !important; */
+    }
+    .opis{
+        font-size: 4vw !important;
+    }
+
+    .caption{
+        font-size: 9.3vw;
+        line-height: 11vw;
+        top: 11vw;
+        text-align: center;
+        left: 0vw;
+        min-width: 100%;
+   }
+    .logo-asta{
+        font-size: 5.4vw;
+        left: 12%;
+        top: 6vw;
+   }
+    .logo-city{
+        font-size: 2.5vw;
+        left: 61.44%;
+        top: 12.8vw;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 27vw 27vw;
+        top: 90vh;
+        width: 30vw;
+        height: auto;
+        left: 20vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+
+
+    .table{
+        font-size: 11.9px !important;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 72% !important;
+   }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px) and (max-height: 600px){
+    .chip_info{
+        margin-top: 145vh !important;
+        font-size: 5vw;
+   }
+
+    .caption{
+        font-size: 9vw;
+        line-height: 9vw;
+        top: 10vw;
+        text-align: center;
+        left: 0vw;
+   }
+    .logo-asta{
+        font-size: 5.4vw;
+        left: 12%;
+        top: 6vw;
+   }
+    .logo-city{
+        font-size: 2.2vw;
+        left: 64.1%;
+        top: 12.4vw;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 27vw 27vw;
+        top: 95vh;
+        width: 30vw;
+        height: auto;
+        left: 20vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+
+
+    .table{
+        font-size: 11.9px;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+}
+
+
+@media (max-width: 1040px) and (min-height: 1200px){
+    .chip_info{
+        margin-top: 160vh !important;
+        font-size: 5vw;
+   }
+    .footer{
+        font-size: 3vw;
+   }
+    .table{
+        font-size: 19px;
+   }
+
+    .images-logo{
+        display: grid;
+        grid-template-columns: 22vw 22vw;
+        top: 115vh;
+        width: 30vw;
+        height: auto;
+        left: 22vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+    .logo-asta{
+        color: white;
+        top: 6vw;
+        position: absolute;
+        z-index: 99;
+        left: 21vw;
+        font-size: 4.06vw;
+   }
+    .logo-city{
+        color: white;
+        top: 11vw;
+        position: absolute;
+        z-index: 99;
+        left: 57vw;
+        font-size: 2vw;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+    .hover-text-one figure h4 {
+        font-size: 82%;
+   }
+}
+
+@media (max-width: 360px) and (max-height: 500px){
+    .caption{
+        font-size: 7vw;
+        line-height: 7vw;
+        top: 10vw;
+        text-align: center;
+        left: 15vw;
+   }
+    .logo-asta{
+        font-size: 5.4vw;
+        left: 12%;
+        top: 6vw;
+   }
+    .logo-city{
+        font-size: 2.2vw;
+        left: 64.1%;
+        top: 12.4vw;
+   }
+    .images-logo{
+        display: grid;
+        grid-template-columns: 27vw 27vw;
+        top: 96vh;
+        width: 30vw;
+        height: auto;
+        left: 20vw;
+        column-gap: 12vw;
+        row-gap: 12vw;
+   }
+    .table{
+        font-size: 11.9px;
+   }
+    .hover-text-one figure p {
+        font-size: 100%;
+   }
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+}
+
+
+
+
+
+@media (max-width: 1000px){
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+}
+
+
+@media (max-width: 800px) and (max-height: 450px){
+    figure.effect-text-four h4 {
+        top: 60%;
+   }
+}
+@media (max-width: 1600px) and (min-height: 500px){
+    .col, [class*="col-"] {
+        padding-right: 7px;
+        padding-left: 7px;
+   }
+    .table{
+        font-size: 15px;
+   }
+    figure.effect-text-four h4 {
+        top: 66.8%;
+        font-size: 13.5px;
+   }
+}
+@media (max-width: 1070px) and (min-height: 700px){
+    figure.effect-text-four h4 {
+        top: 70%;
+   }
+}
+@media (max-width: 1200px) and (min-height: 730px){
+    figure.effect-text-four h4 {
+        top: 62%;
+        font-size: 11px;
+   }
+}
+
+@media (max-width: 1070px) and (min-height: 590px){
+    figure.effect-text-four h4 {
+        top: 64%;
+        font-size: 11px;
+   }
+    .table{
+        font-size: 13.9px;
+   }
+}
