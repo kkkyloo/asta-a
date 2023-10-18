@@ -5,7 +5,7 @@ document.write('\
 <header class="header">\
 <div class="header_body">\
 <a href>\
-  <div class="logo-asta no-dur">АСТА<img class="logo-img" src="images/bmw.png" style="height: 3.7vh; margin-top: -2%;">АВТО</div>\
+  <div class="logo-asta no-dur">АСТА<img class="logo-img" src="images/bmw.png" style="height: 3.7vh; width: auto; margin-top: -2%;">АВТО</div>\
 </a>\
 <div class="logo-city ">РОСТОВ-НА-ДОНУ</div>\
 <div class="logo-adress"><a href="#contacts" class="no-dur">УЛ. ПЕСКОВА 1В</a></div>\
