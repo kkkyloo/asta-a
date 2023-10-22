@@ -8,29 +8,29 @@ document.write('\
       </div>\
       <div class="modal-body justify-content-center text-center">\
       <div class="row text-center justify-content-center">\
-        <div class="col mb-3" style="font-size: 15px;">Наш бот в телеграме для связи:<br><a href=""><img src="images/tg.png" style="height: 7vh; "></a></div>\
-        <div class="col mb-3" style="font-size: 15px;">Наши номера:<br><a class="under" href="tel:+78632002222" style="color:black;">+7 863-200-22-22</a><br><br><a class="under" style="color:black; href="tel:+78005000591">+7 800-500-05-91</a></div>\
+        <div class="col mb-3 form-zag" style="font-size: 120%;">Наш бот в телеграме для связи:<br><a href=""><img src="images/tg.png" style="height: 7vh; "></a></div>\
+        <div class="col mb-3 form-zag" style="font-size: 120%;">Наши номера:<br><a class="under" href="tel:+78632002222" style="color:black;">+7 863-200-22-22</a><br><br><a class="under" style="color:black; href="tel:+78005000591">+7 800-500-05-91</a></div>\
         </div>\
-        <div class="text-center p-2" style="font-size: 13px;">ИЛИ</div>\
-        <div class="text-center p-2" style="font-size: 18px;">Форма для отправки сообщения:</div>\
+        <div class="text-center p-2" style="font-size: 100%;">ИЛИ</div>\
+        <div class="text-center p-2 form-zag" style="font-size: 120%;">Форма для отправки сообщения:</div>\
         <form action="telegram.php" method="POST">\
         <div class="row text-center justify-content-center">\
           <div class="col-5 col-sm-12  form-group">\
-            <label for="exampleInputEmail1" class="form-label"  style="font-size: 15px;">Как к вам обращаться?</label>\
+            <label for="exampleInputEmail1" class="form-label"  style="font-size: 110%;">Как к вам обращаться?</label>\
             <input type="text" name="name" class="form-control" id="" id="validationCustom01" value="" required>\
           </div>\
           <div class="col-7 col-sm-12 form-group">\
-            <label for="exampleInputPassword1"  class="form-label"  style="font-size: 15px;">Номер телефона для связи с вами</label>\
+            <label for="exampleInputPassword1"  class="form-label"  style="font-size: 110%;">Номер телефона для связи с вами</label>\
             <input type="text" name="phone" id="" class="form-control" data-tel-input placeholder="" maxlength="18" required/>\
           </div>\
           </div>\
           <div class="mb-3 form-group">\
-            <label for="exampleFormControlTextarea1" class="form-label"  style="font-size: 15px;">Ваше сообщение</label>\
+            <label for="exampleFormControlTextarea1" class="form-label"  style="font-size: 110%;">Ваше сообщение</label>\
             <textarea class="form-control" name="message" id="" rows="2" required></textarea>\
           </div>\
           <div class="mb-3 form-group">\
-            <label for="exampleFormControlTextarea1" class="form-label"  style="font-size: 15px;">Выбор способа связи с вами</label>\
-            <select style="font-size: 15px;" name="sel" class="form-select" id="">\
+            <label for="exampleFormControlTextarea1" class="form-label"  style="font-size: 110%;">Выбор способа связи с вами</label>\
+            <select style="font-size: 100%;" name="sel" class="form-select" id="">\
               <option value="1">Позвонить по номеру телефона</option>\
               <option value="2">Написать в WhatsApp</option>\
               <option value="3">Написать в Telegram</option>\
