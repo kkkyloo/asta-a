@@ -121,7 +121,8 @@ input:focus {
     }
 }
 
-.pulse::after, .pulse::before {
+.pulse::after,
+.pulse::before {
     content: '';
     position: f;
     border: 2px solid #ffffff;
@@ -357,7 +358,8 @@ head {
     backface-visibility: hidden;
 }
 
-.hover-text-one figure figcaption::before, .hover-text-one figure figcaption::after {
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
     pointer-events: none;
 }
 
@@ -369,7 +371,8 @@ head {
     height: 100%;
 }
 
-.hover-text-one figure h4, .hover-text-one figure p {
+.hover-text-one figure h4,
+.hover-text-one figure p {
     margin: 0;
     text-align: center;
 }
@@ -386,7 +389,8 @@ figure.effect-text-four figcaption {
     text-align: right;
 }
 
-figure.effect-text-four h4, figure.effect-text-four p {
+figure.effect-text-four h4,
+figure.effect-text-four p {
     position: absolute;
     right: 0px;
     left: 0px;
@@ -425,14 +429,16 @@ figure.effect-text-four h4::after {
     transform: translate3d(0, 40px, 0);
 }
 
-figure.effect-text-four h4::after, figure.effect-text-four p {
+figure.effect-text-four h4::after,
+figure.effect-text-four p {
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     background-color: black;
 }
 
-figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
+figure.effect-text-four:hover h4::after,
+figure.effect-text-four:hover p {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -443,7 +449,12 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         font-size: 1vw;
     }
 
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.7vh;
     }
 
@@ -505,7 +516,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1366px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1.2vh;
     }
 
@@ -526,7 +543,9 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1290px) {
-    .col, [class*="col-"] {
+
+    .col,
+    [class*="col-"] {
         padding-right: 7px;
         padding-left: 7px;
     }
@@ -553,13 +572,25 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 
 /* под пк разрешения */
 @media (max-width: 1500px) and (max-height: 800px) and (min-height: 700px) and (min-width: 1400px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.5vh !important;
     }
 }
 
 @media (max-width: 1400px) and (max-height: 700px) and (min-height: 600px) and (min-width: 1300px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: 0vh !important;
     }
 
@@ -569,13 +600,25 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1300px) and (max-height: 700px) and (min-height: 600px) and (min-width: 1200px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.45vh !important;
     }
 }
 
 @media (max-width: 1300px) and (max-height: 600px) and (min-height: 530px) and (min-width: 1200px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: 0vh !important;
     }
 
@@ -585,7 +628,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1700px) and (max-height: 1000px) and (min-height: 900px) and (min-width: 1600px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.5vh !important;
     }
 }
@@ -608,7 +657,12 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         margin-top: -3% !important;
     }
 
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1vh !important;
     }
 }
@@ -619,6 +673,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
     }
 
 }
+
 @media (max-width: 1100px) and (max-height: 650px) and (min-height: 600px) and (min-width: 1000px) {
     .caption {
         margin-top: 3vh !important;
@@ -631,7 +686,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 
 /* ipad air */
 @media (max-width: 1250px) and (max-height: 900px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1.5vh;
     }
 
@@ -694,11 +755,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         margin-top: -14vh;
     }
 
-    .cont, .map {
+    .cont,
+    .map {
         font-size: 3vw !important;
     }
 
-    .tel, .footer {
+    .tel,
+    .footer {
         font-size: 2.5vw !important;
     }
 }
@@ -764,11 +827,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         margin-top: -10vh !important;
     }
 
-    .cont, .map {
+    .cont,
+    .map {
         font-size: 3vw !important;
     }
 
-    .tel, .footer {
+    .tel,
+    .footer {
         font-size: 2.5vw !important;
     }
 
@@ -779,7 +844,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1400px) and (max-height: 1100px) and (min-height: 990px) and (min-width: 1290px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1.75vh !important;
     }
 
@@ -796,7 +867,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 
 /* ipad mini */
 @media (max-width: 1100px) and (max-height: 800px) and (min-height: 700px) and (min-width: 950px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1.9vh !important;
     }
 
@@ -815,13 +892,20 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         min-width: 100%;
     }
 
+
 }
 
 /* ipad mini */
 
 /* surface pro */
 @media (max-width: 1400px) and (max-height: 960px) and (min-width: 1200px) and (min-height: 860px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -1.4vh !important;
     }
 
@@ -848,7 +932,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 /* galaxy fold */
 
 @media (max-width: 700px) and (max-height: 360px) and (min-width: 600px) and (min-height: 200px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: 1vh !important;
     }
 
@@ -886,7 +976,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 
 
 @media (max-width: 1100px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.9vh;
     }
 
@@ -896,13 +992,25 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 950px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: 0vh;
     }
 }
 
 @media (max-width: 800px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.4vh;
     }
 }
@@ -1190,6 +1298,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
     .caption {
         top: -11vw !important;
     }
+
     .chip_info {
         margin-top: -7vh !important;
         font-size: 5vw;
@@ -1498,7 +1607,9 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 /* 5 5se */
 
 /* 6-8plus */
-@media (max-width: 450px) and (min-height: 690px) and (min-height: 700px) and (min-width: 400px) {
+
+
+/* @media (max-width: 450px) and (min-height: 690px) and (min-height: 700px) and (min-width: 400px) {
     .bmw-mob {
         height: 4vh !important;
     }
@@ -1555,16 +1666,17 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         display: block !important;
 
     }
-}
+} */
 
 /* 6-8plus */
 
 /* SE */
 @media (max-width: 380px) and (max-height: 680px) {
-    .form-label{
+    .form-label {
         font-size: 4.3vw !important;
     }
-    .form-zag{
+
+    .form-zag {
         font-size: 4.3vw !important;
     }
 
@@ -1631,7 +1743,13 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 690px) and (max-height: 380px) {
-    .nav-text1, .nav-text2, .nav-text3, .nav-text4, .nav-text5, .nav-text6 {
+
+    .nav-text1,
+    .nav-text2,
+    .nav-text3,
+    .nav-text4,
+    .nav-text5,
+    .nav-text6 {
         margin-top: -0.7vh;
     }
 
@@ -1713,7 +1831,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 
     .bmw {
         background-position: 50% -25% !important;
-        background-size: 900px auto !important;    
+        background-size: 900px auto !important;
     }
 
     .navbar-brand {
@@ -1834,7 +1952,9 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 
 @media (max-width: 1600px) and (min-height: 500px) {
-    .col, [class*="col-"] {
+
+    .col,
+    [class*="col-"] {
         padding-right: 7px;
         padding-left: 7px;
     }
