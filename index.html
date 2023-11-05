@@ -10,17 +10,76 @@
     content="BMW ремонт, бмв дооснощение, BMW чип-тюнинг, сервис бмв ростов, ремонт бмв ростов-на-дону">
   <title>Автосервис и запчасти BMW в Ростове-на-Дону - Аста-Авто</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style-index.css" rel="stylesheet">
-  <link href="css/asta.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link rel="icon" href="images/asta.ico">
 </head>
 
 <body>
-  <script src="header.js"></script>
-  <script src="cars-modal.js"></script>
+
+  <header class="header">
+    <div class="header_body">
+      <a href>
+        <div class="logo-asta no-dur">АСТА<img class="logo-img" src="images/bmw.png"
+            style="height: 3.7vh; width: auto; margin-top: -2%;">АВТО</div>
+      </a>
+      <div class="logo-city ">РОСТОВ-НА-ДОНУ</div>
+      <div class="logo-adress"><a href="#contacts" class="no-dur">УЛ. ПЕСКОВА 1В</a></div>
+      <div class="logo-phone">
+        ТЕЛ.
+        <a class="no-dur under" href="tel:+78632002222">+7 863-200-22-22</a>
+      </div>
+    </div>
+    <div class="nav-asta">
+      <div class="nav-text1">
+        <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal()
+          class="no-dur">Дооснащение</a>
+      </div>
+      <div class="nav-text2">
+        <a href="https://chip-asta-auto.ru/" class="no-dur">Чип-тюнинг</a>
+      </div>
+      <div class="nav-text3">
+        <a href="malar.html" class="no-dur">Малярно-кузовной цех</a>
+      </div>
+      <div class="nav-text4">
+        <a href="service.html" class="no-dur">Сервисный центр BMW</a>
+      </div>
+      <div class="nav-text5">
+        <a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal onclick=openModal()
+          class="no-dur">Связаться с нами</a>
+      </div>
+      <div class="nav-text6">
+        <a href="#contacts" class="no-dur">Контакты</a>
+      </div>
+    </div>
+  </header>
+
 
   <nav class="mob-navbar bg-dark">
-    <script src="navbar.js"></script>
+    <div class="container text-center">
+      <div class="row-2 p-3">
+        <div class="col-12  navbar-brand"><a class="no-dur" href="index.html">АСТА<img class="bmw-mob"
+              src="images/bmw.png" style="height: 8.9vw; margin-top: -1vh;">АВТО</a></div>
+        <div class="col-12 mob-city" style="font-size: 3.8vw; color: white; margin-top: -3%;">Ростов-на-Дону</div>
+      </div>
+      <div class="row-1 p-3 nav-mob text-center" style=" margin-top: -6%;">
+        <div class="col">
+          <a href="service.html" class="no-dur under">Сервисный центр BMW</a>
+        </div>
+        <div class="col">
+          <a href="malar.html" class="no-dur under">Малярно-кузовной цех</a>
+        </div>
+        <div class="col">
+          <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal()
+            class="no-dur under">Дооснащение</a>
+        </div>
+        <div class="col">
+          <a href="https://chip-asta-auto.ru/" class="no-dur under">Чип-тюнинг</a>
+        </div>
+        <div class="col">
+          <a href="#contacts" class="no-dur under">Схема проезда</a>
+        </div>
+      </div>
+    </div>
   </nav>
 
   <main>
@@ -35,29 +94,128 @@
       </div>
     </div>
 
-    <div class="container chip_info">
+    <div class="container asta_info">
       <div class="row text-center justify-content-center">
         <div class="col-11 opis_comp">О нашем автосервисе:</div>
       </div>
-      <div class="row justify-content-center text-center">
-        <div class="col-11 opis"><br>Компания "АСТА-АВТО" была создана в 2004 году и сегодня является ведущей компанией
+      <div class="row justify-content-center text-center" style="margin-top: 1vw !important; font-size: 1vw;">
+        <div class="col-11 opis">Компания "АСТА-АВТО" была создана в 2004 году и сегодня является ведущей компанией
           Ростова-на-Дону, которая специализируется на продаже запасных частей и аксессуаров БМВ, ремонте, обслуживании
           и тюнинге этой марки</div>
-      </div><br>
+      </div>
 
-      <script src="chip-info.js"></script>
+      <div class="col-12 text-center opis_search" id="contacts" style="margin-top: 1vw !important; font-size: 2vw;">Как
+        нас найти:</div>
     </div>
 
-    <script src="footer-modal.js"></script>
+    <div class="row text-center justify-content-center" style="width: 100%; margin-top: 1vw !important;">
+      <div class="col-10 map" id="contacts">
+        <div style="position:relative;overflow:hidden;">
+          <iframe src="" frameborder="1" allowfullscreen="true" loading="lazy"
+            style="position:relative; height: 25vw; width: 80%;" class="contact_map" id="YandexMap">
+          </iframe>
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
+      <div class="row text-center justify-content-center">
+        <div class="col cont" id="contacts" style="margin-top: 1vw; color: white; font-size: 2vw">
+          Наши контакты:
+          <div class="no-dur under mess_numb" style="margin-top: 0vw; font-size: 1.5vw">
+            <a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal onclick=openModal()
+              class="no-dur">Отправить нам сообщение<br></a>
+          </div>
+          <div class="or" style="margin-bottom: -0.5vw;">или</div>
+          <a class="no-dur under tel" href="tel:+78632002222">+7 863-200-22-22</a><br>
+          <a class="no-dur under tel" href="tel:+78005000591">+7 800-500-05-91</a><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-modal">
+      <div class="modal fade " id="contact_modal" tabindex="-1" aria-labelledby="contact-modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-scrollable modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 title-cars" id="contact_modal">Связаться с нами</h1><button type="button"
+                class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body justify-content-center text-center">
+              <div class="row text-center justify-content-center">
+                <div class="col mb-3 form-zag" style="font-size: 120%;">Наш бот в телеграме для связи:<br><a
+                    href=""><img src="images/tg.png" style="height: 7vh; "></a></div>
+                <div class="col mb-3 form-zag" style="font-size: 120%;">Наши номера:<br><a class="under"
+                    href="tel:+78632002222" style="color:black;">+7 863-200-22-22</a><br><br><a class="under"
+                    style="color:black;" href="tel:+78005000591">+7 800-500-05-91</a></div>
+              </div>
+              <div class="text-center p-2 form-zag" style="font-size: 120%;">Форма для отправки сообщения:</div>
+              <form action="telegram.php" method="POST">
+                <div class="row text-center justify-content-center">
+                  <div class="col-5 col-sm-12  form-group">
+                    <label for="exampleInputEmail1" class="form-label" style="font-size: 110%;">Как к вам
+                      обращаться?</label>
+                    <input type="text" name="name" class="form-control" id="" id="validationCustom01" value=""
+                      required><br>
+                  </div>
+                  <div class="col-7 col-sm-12 form-group">
+                    <label for="exampleInputPassword1" class="form-label" style="font-size: 110%;">Номер телефона для
+                      связи с вами</label>
+                    <input type="text" name="phone" id="" class="form-control" data-tel-input placeholder=""
+                      maxlength="18" required /><br>
+                  </div>
+                </div>
+                <div class="mb-3 form-group">
+                  <label for="exampleFormControlTextarea1" class="form-label" style="font-size: 110%;">Ваше
+                    сообщение</label>
+                  <textarea class="form-control" name="message" id="" rows="2" required></textarea>
+                </div>
+                <div class="mb-3 form-group">
+                  <label for="exampleFormControlTextarea1" class="form-label" style="font-size: 110%;">Выбор способа
+                    связи с вами</label>
+                  <select style="font-size: 100%;" name="sel" class="form-select" id="">
+                    <option value="1">Позвонить по номеру телефона</option>
+                    <option value="2">Написать в WhatsApp</option>
+                    <option value="3">Написать в Telegram</option>
+                  </select>
+                </div>
+            </div>
+            <div class="modal-footer"><button type="submit" class="btn btn-dark">Отправить и согласиться с</button>
+              </form><button type="button" class="btn btn-dark" data-bs-target="#modal" data-bs-toggle="modal">Закрыть
+                окно</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <footer class="my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 fot"
+          style="margin-top: 1vw; color: white; font-size: 0.9vw">
+          <li class="nav-item"><a class="nav-link px-2 no-dur " href=/#bmw_modal data-bs-target=#bmw_modal
+              data-bs-toggle=modal onclick=openModal()>Дооснащение</a></li>
+          <li class="nav-item"><a class="nav-link px-2 no-dur " href="https://chip-asta-auto.ru/">Чип-тюнинг</a></li>
+          <li class="nav-item"><a class="nav-link px-2 no-dur " href="malar.html">Малярно-кузовной цех</a></li>
+          <li class="nav-item"><a class="nav-link px-2 no-dur " href="/servis">Сервисный центр BMW</a></li>
+          <li class="nav-item"><a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal
+              onclick=openModal() class="nav-link px-2 no-dur ">Связаться с нами</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link px-2 no-dur ">Контакты</a></li>
+        </ul>
+        <p class="text-center no-dur last" style="margin: 1vw;">
+          <a href="https://www.asta-auto.ru/" class="text-center no-dur">© 2004 -
+            <script>new Date().getFullYear() > 2010 && document.write(new Date().getFullYear());</script>
+            АСТА-АВТО
+          </a>
+        </p>
+      </footer>
+    </div>
   </main>
+
+  <script src="js/map.js"></script>
+
 
   <script src="js/form.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery-3.6.1.min.js"></script>
-  <script src="js/modal-address.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/preloader.js"></script>
 </body>
 
 </html>

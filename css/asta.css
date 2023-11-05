@@ -1,61 +1,53 @@
-
-
-
-.no-dur{
+.no-dur {
     text-decoration: none;
     color: white;
 }
-.no-dur:hover{
+
+.no-dur:hover {
     color: rgb(190, 190, 190);
 }
-.no-dur2{
+
+.no-dur2 {
     text-decoration: none;
     color: white;
 }
-.no-dur2:hover{
+
+.no-dur2:hover {
     color: white;
 }
-.under{
+
+.under {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
 .opis,
-.tel{
+.tel {
     font-size: 1.2vw;
 }
-.footer{
+
+.footer {
     will-change: contents;
 
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 10vw;
-    
+
 }
 
-.nav-mob{
+.nav-mob {
     line-height: 11vw;
     font-size: 4.7vw;
 }
 
-
-@media (max-width: 950px) and (min-height: 900px){
-    .header{
+@media (max-width: 950px) and (min-height: 900px) {
+    .header {
         display: none;
     }
-
-
 }
-@media (max-width: 760px) and (min-height: 500px){
-    .header{
+
+@media (max-width: 760px) and (min-height: 500px) {
+    .header {
         display: none;
     }
-
-    
 }
