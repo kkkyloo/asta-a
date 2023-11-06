@@ -3,15 +3,24 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #212529;
+    background-color: #252a2e;
     font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.no_select {
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @font-face {
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
     font-display: swap;
+    font-weight: bold;
+    font-style: normal;
     src: url("../font/Inter-ExtraBold.woff2");
 }
 
@@ -95,7 +104,6 @@ body {
 }
 
 .logo-asta {
-    color: white;
     top: 1.8vw;
     position: absolute;
     z-index: 99;
@@ -104,7 +112,6 @@ body {
 }
 
 .logo-city {
-    color: white;
     top: 4.2vw;
     position: absolute;
     z-index: 99;
@@ -113,7 +120,6 @@ body {
 }
 
 .logo-adress {
-    color: white;
     top: 5.7vw;
     position: absolute;
     z-index: 99;
@@ -122,7 +128,6 @@ body {
 }
 
 .logo-phone {
-    color: white;
     top: 6.8vw;
     position: absolute;
     z-index: 99;
@@ -130,58 +135,50 @@ body {
     font-size: 0.79vw;
 }
 
+.nav-asta{
+    font-size: 0.9vw;
+}
+
 .nav-text1 {
     position: absolute;
     z-index: 99;
     left: 21.7vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .nav-text2 {
     position: absolute;
     z-index: 99;
     left: 32.7vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .nav-text3 {
     position: absolute;
     z-index: 99;
     left: 43.1vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .nav-text4 {
     position: absolute;
     z-index: 99;
     left: 59.6vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .nav-text5 {
     position: absolute;
     z-index: 99;
     left: 76vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .nav-text6 {
     position: absolute;
     z-index: 99;
     left: 89.2vw;
-    color: white;
-    top: 2.4vw;
-    font-size: 1.1vw;
+    top: 2.6vw;
 }
 
 .caption {
@@ -206,7 +203,6 @@ body {
 }
 
 .asta_info {
-    color: white;
     font-size: 2vw !important;
     margin-top: 2vw;
 }
@@ -266,6 +262,11 @@ body {
 .tel {
     font-size: 1.4vw !important;
 }
+
+.contact-modal{
+    color: black;
+}
+
 
 @media (min-width: 2100px) {
     .contact_map {
