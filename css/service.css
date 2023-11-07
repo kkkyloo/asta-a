@@ -6,6 +6,71 @@
     margin-top: 2vh !important;
 }
 
-.border_radius{
+.border_radius {
     border-radius: 1% !important;
+}
+
+.carousel-control-prev{
+    margin-left: 16vh !important; z-index: 11;
+}
+
+@media (max-width: 600px),
+(max-width: 900px) and (max-height: 1250px) and (min-width: 700px) and (min-height: 900px),
+(max-width: 1100px) and (min-height: 1280px) and (min-width: 950px) and (max-height: 1400px) {
+    .service_img {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important
+    }
+
+    .img_service {
+        height: 40vh !important;
+    }
+
+    .caption {
+        margin-top: -4vw !important;
+        padding-bottom: 3vw !important;
+    }
+
+    .service_text {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important;
+        font-size: 5vw !important;
+        padding-bottom: 3vh !important;
+    }
+    .service_img2 {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important
+    }
+
+    .img_service2 {
+        height: 40vh !important;
+    }
+
+    .carousel-control-prev{
+        margin-left: 3vh !important; z-index: 11;
+    }
+
+    .carousel-control-next{
+        margin-right: 3vh !important; z-index: 11;
+    }
+
+    .service_text2 {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important;
+        font-size: 5vw !important;
+        padding-bottom: 0vh !important;
+        margin-top: 3vh !important;
+    }
+
+    .service_text3 {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important;
+        font-size: 5vw !important;
+        padding-bottom: 0vh !important;
+        margin-top: -4vh !important;
+    }
+    .service_text4{
+        font-size: 4vw !important;
+        line-height: 8vw !important;
+    }
 }
