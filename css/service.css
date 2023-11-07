@@ -1,5 +1,5 @@
 .caption {
-    margin-top: 5vw;
+    margin-top: 4.5vw;
 }
 
 .asta_info {
@@ -40,7 +40,7 @@
     .service_text {
         padding-left: 3vh !important;
         padding-right: 3vh !important;
-        font-size: 5vw !important;
+        font-size: 4.5vw !important;
         padding-bottom: 3vh !important;
         padding-top: 3vh !important;
     }
@@ -65,7 +65,7 @@
     .service_text2 {
         padding-left: 3vh !important;
         padding-right: 3vh !important;
-        font-size: 5vw !important;
+        font-size: 4.5vw !important;
         padding-bottom: 0vh !important;
         margin-top: 3vh !important;
     }
@@ -73,7 +73,7 @@
     .service_text3 {
         padding-left: 3vh !important;
         padding-right: 3vh !important;
-        font-size: 5vw !important;
+        font-size: 4.5vw !important;
         padding-bottom: 0vh !important;
         margin-top: -1vh !important;
     }

@@ -274,7 +274,9 @@ body {
     font-size: 1.2vw !important;
 }
 
-
+.contact_up_img{
+    padding-top: 1vw !important;
+}
 
 @media (min-width: 2100px) {
     .contact_map {
@@ -381,6 +383,14 @@ body {
         padding-left: 10% !important;
         padding-right: 10% !important;
 
+    }
+
+    .up_cont, .footer{
+        padding-bottom: 3vw !important;
+        padding-top: 3vw !important;
+    }
+    .contact_up_img{
+        width: 13vw !important;
     }
 }
 
