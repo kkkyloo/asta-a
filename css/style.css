@@ -131,7 +131,7 @@ body {
     font-size: 0.79vw;
 }
 
-.nav-asta{
+.nav-asta {
     font-size: 0.9vw;
 }
 
@@ -252,7 +252,7 @@ body {
     font-size: 1.1vw !important;
 }
 
-.contact-modal{
+.contact-modal {
     color: black;
 }
 
@@ -270,11 +270,11 @@ body {
     margin-right: 0.1vw !important;
 }
 
-.telegram{
+.telegram {
     font-size: 1.2vw !important;
 }
 
-.contact_up_img{
+.contact_up_img {
     padding-top: 1vw !important;
 }
 
@@ -372,24 +372,28 @@ body {
         height: 7vh;
     }
 
-    .telegram{
+    .telegram {
         font-size: 5vw !important;
     }
+
     .contact_tg_img {
         width: 6vw !important;
         margin-right: 1vw !important;
     }
-    .fot{
+
+    .fot {
         padding-left: 10% !important;
         padding-right: 10% !important;
 
     }
 
-    .up_cont, .footer{
+    .up_cont,
+    .footer {
         padding-bottom: 3vw !important;
         padding-top: 3vw !important;
     }
-    .contact_up_img{
+
+    .contact_up_img {
         width: 13vw !important;
     }
 }
