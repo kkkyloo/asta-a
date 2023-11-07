@@ -17,9 +17,15 @@
 @media (max-width: 600px),
 (max-width: 900px) and (max-height: 1250px) and (min-width: 700px) and (min-height: 900px),
 (max-width: 1100px) and (min-height: 1280px) and (min-width: 950px) and (max-height: 1400px) {
+    .service_img1 {
+        padding-left: 3vh !important;
+        padding-right: 3vh !important;
+        padding-top: 0vh !important;
+    }
+
     .service_img {
         padding-left: 3vh !important;
-        padding-right: 3vh !important
+        padding-right: 3vh !important;
     }
 
     .img_service {
@@ -40,7 +46,8 @@
     }
     .service_img2 {
         padding-left: 3vh !important;
-        padding-right: 3vh !important
+        padding-right: 3vh !important;
+        padding-top: 0vh !important;
     }
 
     .img_service2 {
@@ -73,5 +80,8 @@
     .service_text4{
         font-size: 4vw !important;
         line-height: 8vw !important;
+    }
+    .align-items-center{
+        background-color:rgba(0, 0, 0, .2) !important
     }
 }

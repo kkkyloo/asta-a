@@ -138,42 +138,35 @@ body {
 .nav-text1 {
     position: absolute;
     z-index: 99;
-    left: 21.7vw;
+    left: 25.2vw;
     top: 2.6vw;
 }
 
 .nav-text2 {
     position: absolute;
     z-index: 99;
-    left: 32.7vw;
+    left: 38.6vw;
     top: 2.6vw;
 }
 
 .nav-text3 {
     position: absolute;
     z-index: 99;
-    left: 43.1vw;
+    left: 51.2vw;
     top: 2.6vw;
 }
 
 .nav-text4 {
     position: absolute;
     z-index: 99;
-    left: 59.6vw;
+    left: 69.8vw;
     top: 2.6vw;
 }
 
 .nav-text5 {
     position: absolute;
     z-index: 99;
-    left: 75.6vw;
-    top: 2.6vw;
-}
-
-.nav-text6 {
-    position: absolute;
-    z-index: 99;
-    left: 89.6vw;
+    left: 87.7vw;
     top: 2.6vw;
 }
 
@@ -263,6 +256,25 @@ body {
     color: black;
 }
 
+.up {
+    transition: 0.4s;
+    display: inline;
+}
+
+.up:hover {
+    transform: scale(1.1);
+}
+
+.contact_tg_img {
+    width: 1.9vw !important;
+    margin-right: 0.1vw !important;
+}
+
+.telegram{
+    font-size: 1.2vw !important;
+}
+
+
 
 @media (min-width: 2100px) {
     .contact_map {
@@ -334,12 +346,12 @@ body {
     }
 
     .mess_numb {
-        font-size: 4vw !important;
+        font-size: 4.3vw !important;
         margin-top: 1vw !important;
     }
 
     .tel {
-        font-size: 4vw !important;
+        font-size: 4.3vw !important;
         margin-top: -1vw !important;
     }
 
@@ -349,13 +361,26 @@ body {
 
     .fot,
     .last {
-        font-size: 3.5vw !important;
+        font-size: 3.7vw !important;
     }
 
     .pulse {
         top: 80vh;
         width: 7vh;
         height: 7vh;
+    }
+
+    .telegram{
+        font-size: 5vw !important;
+    }
+    .contact_tg_img {
+        width: 6vw !important;
+        margin-right: 1vw !important;
+    }
+    .fot{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+
     }
 }
 
