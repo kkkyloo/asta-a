@@ -193,7 +193,7 @@ body {
 
 .asta_info {
     font-size: 2vw !important;
-    margin-top: 2vw;
+    margin-top: 2vh !important;
 }
 
 .opis_comp {

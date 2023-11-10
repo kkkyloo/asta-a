@@ -196,16 +196,15 @@
 
     <div class="container">
       <div class="row text-center justify-content-center">
-        <div class="col cont" id="contacts" style="margin-top: 1vw; color: white; font-size: 2vw">
+        <div class="col cont" id="contacts" style="margin-top: 1vh !important; color: white; font-size: 2vw">
           Наши контакты:
-          <div class="no-dur under mess_numb" style="margin-top: 0vw; font-size: 1.5vw">
+          <div class="no-dur under mess_numb" style="margin-top: 0vh !important; font-size: 1.5vw">
             <a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal onclick=openModal()
               class="no-dur">Форма для отправки сообщения<br></a>
           </div>
           <div class="or" style="margin-bottom: -0.5vw;">или</div>
           <a href="https://api.whatsapp.com/send?phone=79034015529" target="_blank" class="no-dur under telegram">
-            <img src="images/tg.png" class=" contact_wp_img contact_tg_img" alt="Значок тг" style="width: 2vw;">Телеграм
-            бот
+            <img src="images/tg.png" class="  contact_tg_img" alt="Значок тг" style="width: 2vw;">Телеграм бот
           </a><br>
           <a class="no-dur under tel" href="tel:+78632002222">+7 863-200-22-22</a><br>
           <a class="no-dur under tel" href="tel:+78005000591">+7 800-500-05-91</a><br>
@@ -275,6 +274,7 @@
 
     </div>
   </main>
+
   <script>
     window.addEventListener('DOMContentLoaded', (event) => {
       var carousel = new bootstrap.Carousel(document.querySelector('#myCarousel'), {

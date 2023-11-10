@@ -1,5 +1,5 @@
 .caption {
-    margin-top: 5vw;
+    margin-top: 4.5vw;
 }
 
 .asta_info {
@@ -14,12 +14,8 @@
 (max-width: 900px) and (max-height: 1250px) and (min-width: 700px) and (min-height: 900px),
 (max-width: 1100px) and (min-height: 1280px) and (min-width: 950px) and (max-height: 1400px) {
     .caption {
-        font-size: 8.3vw !important;
-        line-height: 9.5vw !important;
-        margin-top: -1vh !important;
-        text-align: center !important;
-        left: 0vw !important;
-        min-width: 100% !important;
+        margin-top: -4vw !important;
+        padding-bottom: 3vw !important;
     }
 
     .malar-content {
