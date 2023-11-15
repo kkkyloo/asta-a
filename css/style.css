@@ -29,7 +29,7 @@ body {
     background: #272727;
     width: 3vw;
     height: 3vw;
-    z-index: 1;
+    z-index: 111;
 }
 
 .pulse::before {
