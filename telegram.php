@@ -7,6 +7,7 @@ $sel = $_POST['sel'];
 $token = "5852197115:AAE-sewlbP2TZHOqMTrShrqPpaJLwc64HoM";
 $chat_id = "-963346015";
 $arr = array(
+  'Заявка с сайта' => '',
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
   'Сообщение' => $message,
