@@ -89,7 +89,7 @@
         <div class="caption text-center container-fluid"><br>Политика конфеденциальнсоти</div>
 
 
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="row malar-content"
                 style="margin-top: 1vh; margin-right: 12%; margin-left: 12%; padding-top: 1.4vh; padding-bottom: 1.4vh;">
                 <div class="col-12">
@@ -229,8 +229,8 @@
 
                 <h5>12. Заключительные положения</h5>
                 <p>12.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся обработки
-                    его персональных данных, обратившись к Оператору с помощью электронной почты <a
-                    class="no-dur under"  href="mailto:asta-auto@mail.ru">asta-auto@mail.ru</a>.</p>
+                    его персональных данных, обратившись к Оператору с помощью электронной почты <a class="no-dur under"
+                        href="mailto:asta-auto@mail.ru">asta-auto@mail.ru</a>.</p>
                 <p>12.2. В данном документе будут отражены любые изменения политики обработки персональных данных
                     Оператором. Политика действует бессрочно до замены ее новой версией.</p>
                 <p>12.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу <a
@@ -275,60 +275,69 @@
         </div>
 
         <div class="contact-modal border-bottom">
-            <div class="modal fade " id="contact_modal" tabindex="-1" aria-labelledby="contact-modalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-scrollable modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5 title-cars" id="contact_modal">Связаться с нами</h1><button type="button"
-                      class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body justify-content-center text-center">
-                    <div class="text-center p-2 form-zag" style="font-size: 120%;">Форма для отправки сообщения:</div>
-                    <form action="telegram.php" method="POST">
-                      <div class="row text-center justify-content-center">
-                        <div class="col-5 col-sm-12  form-group">
-                          <label for="exampleInputEmail1" class="form-label" style="font-size: 110%;">Как к вам
-                            обращаться?</label>
-                          <input type="text" name="name" class="form-control" id="" id="validationCustom01" value=""
-                            required><br>
+            <div class="modal fade " id="contact_modal" tabindex="-1" aria-labelledby="contact-modalLabel"
+                aria-hidden="true">
+                <div
+                    class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 title-cars" id="contact_modal">Связаться с нами</h1><button
+                                type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="col-7 col-sm-12 form-group">
-                          <label for="exampleInputPassword1" class="form-label" style="font-size: 110%;">Номер телефона для
-                            связи с вами</label>
-                          <input type="text" name="phone" id="" class="form-control" data-tel-input placeholder=""
-                            maxlength="18" required /><br>
+                        <div class="modal-body justify-content-center text-center">
+                            <div class="text-center p-2 form-zag" style="font-size: 120%;">Форма для отправки сообщения:
+                            </div>
+                            <form action="telegram.php" method="POST">
+                                <div class="row text-center justify-content-center">
+                                    <div class="col-5 col-sm-12  form-group">
+                                        <label for="exampleInputEmail1" class="form-label" style="font-size: 110%;">Как
+                                            к вам
+                                            обращаться?</label>
+                                        <input type="text" name="name" class="form-control" id=""
+                                            id="validationCustom01" value="" required><br>
+                                    </div>
+                                    <div class="col-7 col-sm-12 form-group">
+                                        <label for="exampleInputPassword1" class="form-label"
+                                            style="font-size: 110%;">Номер телефона для
+                                            связи с вами</label>
+                                        <input type="text" name="phone" id="" class="form-control" data-tel-input
+                                            placeholder="" maxlength="18" required /><br>
+                                    </div>
+                                </div>
+                                <div class="mb-3 form-group">
+                                    <label for="exampleFormControlTextarea1" class="form-label"
+                                        style="font-size: 110%;">Ваше
+                                        сообщение</label>
+                                    <textarea class="form-control" name="message" id="" rows="2" required></textarea>
+                                </div>
+                                <div class="mb-3 form-group">
+                                    <label for="exampleFormControlTextarea1" class="form-label"
+                                        style="font-size: 110%;">Выбор способа
+                                        связи с вами</label>
+                                    <select style="font-size: 100%;" name="sel" class="form-select" id="">
+                                        <option value="1">Позвонить по номеру телефона</option>
+                                        <option value="2">Написать в WhatsApp</option>
+                                        <option value="3">Написать в Telegram</option>
+                                    </select>
+                                </div>
+                                <a class="no-dur under politic" href="politic.html"
+                                    style="color: black !important; font-size: 120% !important;">
+                                    Политика конфеденциальнсоти</a>
                         </div>
-                      </div>
-                      <div class="mb-3 form-group">
-                        <label for="exampleFormControlTextarea1" class="form-label" style="font-size: 110%;">Ваше
-                          сообщение</label>
-                        <textarea class="form-control" name="message" id="" rows="2" required></textarea>
-                      </div>
-                      <div class="mb-3 form-group">
-                        <label for="exampleFormControlTextarea1" class="form-label" style="font-size: 110%;">Выбор способа
-                          связи с вами</label>
-                        <select style="font-size: 100%;" name="sel" class="form-select" id="">
-                          <option value="1">Позвонить по номеру телефона</option>
-                          <option value="2">Написать в WhatsApp</option>
-                          <option value="3">Написать в Telegram</option>
-                        </select>
-                      </div>
-                      <a class="no-dur under politic" href="/politic/" style="color: black !important; font-size: 120% !important;">
-                        Политика конфеденциальнсоти</a>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="submit" class="btn btn-dark">Отправить</button>
-                    </form>
-                    <button type="button" class="btn btn-dark" data-bs-target="#modal" data-bs-toggle="modal">Закрыть
-                      окно</button>
-                  </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-dark">Отправить</button>
+                            </form>
+                            <button type="button" class="btn btn-dark" data-bs-target="#modal"
+                                data-bs-toggle="modal">Закрыть
+                                окно</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-      
-      
+
+
             <br>
-          </div>
+        </div>
 
         <div class="footer text-center">
             <p><a href="#top" class="up_cont">
@@ -339,7 +348,10 @@
                 <a href="https://www.asta-auto.ru/" class="text-center no-dur" id="year">
                 </a>
             </p>
-
+            <p class=" no-dur last">
+                <a class="text-center no-dur" href="politic.html">
+                    Политика конфеденциальнсоти</a>
+            </p>
         </div>
 
     </main>
