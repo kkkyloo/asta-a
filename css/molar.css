@@ -1,13 +1,7 @@
 .caption {
-    margin-top: 4.5vw;
-}
-
-.asta_info {
-    margin-top: 0vh !important;
-}
-
-.opis {
-    font-size: 1.1vw !important;
+    margin-top: 4.5vw !important;
+    font-size: 3vw !important;
+    margin-bottom: 1vw !important;
 }
 
 @media (max-width: 600px),

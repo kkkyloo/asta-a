@@ -1,0 +1,9 @@
+.carousel-control-prev {
+    margin-left: 29vh !important;
+    z-index: 11;
+}
+
+.carousel-control-next {
+    margin-right: 29vh !important;
+    z-index: 11;
+}

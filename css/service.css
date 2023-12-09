@@ -1,5 +1,7 @@
 .caption {
     margin-top: 4.5vw;
+    font-size: 3vw;
+    margin-bottom: 1vw;
 }
 
 .asta_info {
@@ -95,4 +97,12 @@
     .align-items-center {
         background-color: rgba(0, 0, 0, .2) !important
     }
+}
+
+
+@media(min-width: 2400px) and (min-height: 800px) {
+
+.carousel2 {
+    margin-top: 8.7vw !important;
+}
 }
